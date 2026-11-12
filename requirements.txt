@@ -1,0 +1,10 @@
+gradio>=5.0,<7
+pypdf>=5.0
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+chromadb>=0.5
+openai>=1.50
+
+py -3.14 -m venv .venv314
+.venv314\Scripts\activate.bat
+python -m pip install gradio pypdf sentence-transformers chromadb==1.5.9 pydantic-settings google-genai python-dotenv
